@@ -1,3 +1,5 @@
+[![Trinity Ecosystem](https://img.shields.io/badge/Trinity-Complete-blue)](https://github.com/t81dev/ternary).
+
 # Ternary LLMs — 2.63-bit balanced ternary quantization
 
 This repo contains the **first working balanced ternary weights** for modern LLMs.

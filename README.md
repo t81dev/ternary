@@ -8,11 +8,13 @@ This repo contains the **first working balanced ternary weights** for modern LLM
 - Works today with llama.cpp / Ollama / LM Studio
 
 ### Results so far (Gemma-2-2B-IT)
+### Real Results (auto-updated by CI)
 
-| Method       | Size    | WikiText2 PPL |
-|--------------|---------|---------------|
-| FP16         | 4.8 GB  | 5.91          |
-| Q4_K_M       | 2.8 GB  | 6.48          |
+<!-- PPL_TABLE -->
+| Method       | Size     | WikiText-2 PPL |
+|--------------|----------|---------------|
+| FP16         | 4.80 GB  | 5.91          |
+| Q4_K_M       | 2.80 GB  | 6.48          |
 | **T3_K**     | **2.4 GB**  | **6.38**      |
 
 → **16% smaller than Q4_K_M, lower perplexity**
